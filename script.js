@@ -16,12 +16,11 @@ function containsNumericOrSpecial(str) {
 }
 
 //Function for checking valid mail
-function isValidEmail(email) {
-  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
+function Email_Checker(email_id) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email_id);
 }
 
-//Function for cehcking a valid mobile number
+//Function for checking a valid mobile number
 function isValidMobileNumber(mobileNumber) {
   if (mobileNumber.length == 0) {
     return true;
@@ -55,7 +54,7 @@ button.addEventListener("click", function () {
     window.alert(
       "Please Enter Valid Name Without Numeric and Special Characters."
     );
-  } else if (isValidEmail(st_email) === false) {
+  } else if (Email_Checker(st_email) === false) {
     isValidDetail = false;
     window.alert("Please Enter Valid Email.");
   } else if (isValidMobileNumber(st_phone) === false) {
