@@ -1,0 +1,61 @@
+
+  .main-box{
+    margin-top: 30px;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .my-form{
+    border:3px solid wheat;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  
+  .form-group {
+    margin: 3px;
+    padding: 8px;
+  }
+  
+  label{
+    margin-top:10px;
+  }
+  
+  #myTable {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 3px;
+  }
+  
+  #myTable td,
+  #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #myTable tr:hover {
+    background-color: #ddd;
+  }
+  
+  #myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+  }
+  
+  
+  .custom-btn{
+    width:30%;
+    margin-top: 10px;
+    float: right;
+    padding:8px 6px;
+    border:1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  
